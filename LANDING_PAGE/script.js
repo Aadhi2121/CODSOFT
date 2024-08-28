@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Alex Johnson", review: "The quality of the paintings exceeded my expectations." },
         { name: "Emily Davis", review: "Fast shipping and the artwork looks even better in person!" }
     ];
-
+    
     reviews.forEach(review => {
         const reviewDiv = document.createElement("div");
         reviewDiv.className = "review";
