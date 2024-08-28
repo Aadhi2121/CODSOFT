@@ -1,0 +1,210 @@
+/* Basic Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 20px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin-left: 20px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Landing Section */
+.landing {
+    background: linear-gradient(135deg, #f06, #8e44ad);
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing .landing-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.landing .landing-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.landing .landing-text button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+}
+
+/* Products Section */
+.products {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.product-list .product {
+    background-color: #fafafa;
+    margin-right: 20px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin: 20px 0 10px;
+    font-size: 1.5rem;
+}
+
+.product p {
+    margin: 10px 0;
+    color: #888;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Us Section */
+.about {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Contact Us Section */
+.contact {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review-list .review {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.review h3 {
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
